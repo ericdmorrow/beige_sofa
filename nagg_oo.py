@@ -14,6 +14,7 @@ import numpy
 import math
 from operator import itemgetter
 import numpy
+import os
 
 from sklearn.metrics.pairwise import linear_kernel
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -44,14 +45,20 @@ class rec_server:
             'http://www.computerweekly.com/rss/Latest-IT-news.xml',
             'http://feeds.reuters.com/reuters/technologyNews',
             'http://www.tweaktown.com/news-feed/'
+            'http://feeds.reuters.com/Reuters/worldNews',
             'https://news.google.com/news/rss/headlines/section/topic/WORLD?ned=us&hl=en&gl=US',
             'http://feeds.bbci.co.uk/news/world/rss.xml',
             'https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml'
             'https://www.yahoo.com/news/world/rss',
             'http://rss.cnn.com/rss/edition_world.rss',
             'https://www.theguardian.com/world/rss']
+        
+        self.article_feed_dir = 'news_feeds'
+        self.load_news_feeds()
         self.process_feeds()
         self.create_article_featurematrix()
+        
+        self.job_dir = 'job_descriptions'
         self.define_career_desc()
         self.create_career_featurematrix()
         
@@ -71,6 +78,17 @@ class rec_server:
             value = value.split("'")[1]
             setattr(self, varname, value)
 
+    def load_news_feeds(self):
+        print('Loading RSS feed sites')
+        #list the files in the folder
+        files = os.listdir(self.article_feed_dir)
+
+        #create a dictionary where key is filename; content is value
+        rss_list = []
+        for file in files:
+            with open(self.article_feed_dir + '/' + file, 'r') as f:
+                rss_list.append(f.readlines())
+        self.feeds = [item.strip('\n').strip('\r') for sublist in rss_list for item in sublist]
     
     def process_feeds(self):        
         # for each feed, grab available list of articles and if it contains a summary extract the title and summary words
@@ -119,7 +137,19 @@ class rec_server:
             corpus += ' ' + status.text
         return corpus
 
-    def define_career_desc(self):       
+    def define_career_desc(self):
+        print('Loading job descriptions')
+        #list the files in the folder
+        jfiles = os.listdir(self.job_dir)
+    
+        #create a dictionary where key is filename; content is value
+        job_descriptions = {}
+        for file in jfiles:
+            with open(self.job_dir + '/' + file, 'r') as f:
+                job_descriptions[file.split('.')[0]] = f.read().replace('\n',' ')
+        self.job_descriptions = job_descriptions
+
+    def old_define_career_desc(self):
     #https://targetjobs.co.uk/careers-advice/job-descriptions/276947-advertising-account-executive-job-description
     #https://targetjobs.co.uk/careers-advice/job-descriptions/279903-investment-banker-corporate-finance-job-description
     #https://targetjobs.co.uk/careers-advice/job-descriptions/668041-consultant-job-description
@@ -197,12 +227,12 @@ if __name__ == "__main__":
     RS.recommend_articles(user_sample, 3)
     
     #%% 
-    job_desc = RS.job_descriptions['ad_executive']
+    job_desc = RS.job_descriptions['adverstising_account_executive']
     user_sample = RS.user_input([job_desc])
     RS.recommend_articles(user_sample, 3)
     
     #%% 
-    job_desc = RS.job_descriptions['investment_banker']
+    job_desc = RS.job_descriptions['investment_fund_manager']
     user_sample = RS.user_input([job_desc])
     RS.recommend_articles(user_sample, 3)
     
