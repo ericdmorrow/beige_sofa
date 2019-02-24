@@ -1,0 +1,19 @@
+Data visualisation analysts make large data sets useful and meaningful by presenting key information in a variety of ways.
+
+Data visualisation is about presenting large amounts of information in ways that are universally understandable or easy to interpret and spot patterns, trends and correlations. These representations include charts, graphs, infographics and other pictoral diagrams. Data visualisation analysts use visualisation tools and software to communicate information in these ways, for clients or for their own company. You can be a data visualisation specialist but it is often an aspect of a data analyst or data scientist job.
+
+A similar sounding but different field is data virtualisation. This is about creating fast access to data (such as a file or photograph) – making it retrievable without the user needing to know technical details about it, such as where the file is stored. It works by making storage systems that are separate from physical hardware in a device, and is the basis for cloud computing.
+
+Typical duties for data visualisation analysts include:
+
+making large and/or complex data more accessible, understandable and usable
+transforming, improving and integrating data, depending on the business requirements
+combining the data result sets across multiple sources (also known as the data federation)
+delivering the data in a useful and appealing way to users
+Typical employers of data visualisation analysts
+Banks
+Specialist software development companies
+Consulting firms
+Telecommunications companies
+Public sector organisations
+Social media specialists

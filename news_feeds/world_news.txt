@@ -1,0 +1,8 @@
+http://feeds.reuters.com/Reuters/worldNews
+https://news.google.com/news/rss/headlines/section/topic/WORLD?ned=us&hl=en&gl=US
+http://feeds.bbci.co.uk/news/world/rss.xml
+http://feeds.washingtonpost.com/rss/rss_blogpost
+https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml
+https://www.yahoo.com/news/world/rss
+http://rss.cnn.com/rss/edition_world.rss
+https://www.theguardian.com/world/rss

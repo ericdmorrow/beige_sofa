@@ -16,6 +16,8 @@ from operator import itemgetter
 import numpy
 import os
 
+from newspaper import Article
+
 from sklearn.metrics.pairwise import linear_kernel
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -131,11 +133,15 @@ class rec_server:
         return recommendations[:n]
     
     def user_twitter(self, userhandle):
-        statuses = self.api.user_timeline(id=userhandle)
+        statuses = self.api.user_timeline(id=userhandle, count=200)
         corpus = ''
+        urls = []
         for status in statuses:
             corpus += ' ' + status.text
-        return corpus
+            if status.entities and status.entities['urls']:
+                for url in status.entities['urls']:
+                    urls.append(url['expanded_url'])
+        return corpus, urls
 
     def define_career_desc(self):
         print('Loading job descriptions')
@@ -204,6 +210,22 @@ class rec_server:
         recommendations = sorted(zip(self.titles, self.corpus, similarities), key=lambda x: x[2], reverse=True)
         return recommendations[:n]
 
+    @staticmethod
+    def parse_tweet_urls(urllist):
+        kwlist = []
+        for url in urllist:
+            a = Article(url)
+            try:
+                a.download()
+                a.parse()
+                a.nlp()
+                kwlist.append(a.keywords)
+                del(a)
+            except:
+                bob = 0
+        return kwlist
+            
+
 
 if __name__ == "__main__":
     #%%
@@ -222,7 +244,7 @@ if __name__ == "__main__":
     RS.recommend_articles(user_sample, 3)
     
     #%%
-    user_statuses = RS.user_twitter('jk_rowling')
+    user_statuses, user_urls = RS.user_twitter('jk_rowling')
     user_sample = RS.user_input([user_statuses])
     RS.recommend_articles(user_sample, 3)
     
@@ -241,6 +263,7 @@ if __name__ == "__main__":
     RS.recommend_careers(user_sample, 2)
     
     #%%
-    user_statuses = RS.user_twitter('jk_rowling')
-    user_sample = RS.user_input([user_statuses], rtype='career')
+    user_statuses, user_urls = RS.user_twitter('jk_rowling')
+    user_read_articles = RS.parse_tweet_urls(user_urls)
+    user_sample = RS.user_input(user_read_articles, rtype='career')
     RS.recommend_careers(user_sample, 3)

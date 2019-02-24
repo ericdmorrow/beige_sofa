@@ -34,6 +34,7 @@ def index():
         
         if name[0]=='@':
             user_statuses = RS.user_twitter(name)
+            print('{}'.format(user_statuses))
             user_sample_article = RS.user_input([user_statuses])
             user_sample_career = RS.user_input([user_statuses], rtype='career')
         else:

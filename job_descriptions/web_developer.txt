@@ -1,0 +1,32 @@
+Web developers are a type of software developer. They specialise in using web technologies, which they use to create websites and web applications (website components that carry out a function for the user, such as email, instant messaging, online banking and online retail).
+
+Web developers are different to web designers, who focus more on designing the user interface of websites and web applications.
+
+Typical responsibilities of a web developer include:
+
+discussing clients’ requirements and proposed solutions with a senior developer (for developers at mid-skill level and below)
+implementing new designs
+using development tools to write and test code to develop solutions
+applying off-page SEO (search engine optimisation)
+managing and uploading website content
+Typical employers of web developers
+website design and development companies
+digital marketing agencies
+retailers
+the government
+any organisation that has its own website
+Jobs are advertised online, by careers services and by recruitment agencies.
+
+View our graduate IT and technology vacancies.
+Qualifications and training required
+There are routes into web development for both graduates and school leavers. Graduates with a degree in computer science, software development or similar are preferred for many junior web developer roles but it possible to find a graduate web developer job whatever your degree background, as long as you have some practical knowledge of web development processes and languages.
+
+
+Key skills for web developers
+Mathematical aptitude and strong problem-solving skills
+Excellent organisational and time management skills
+Accuracy and attention to detail
+An understanding of the latest web trends and their role in a commercial environment
+Teamwork skills, because most projects require input from individuals with different roles
+Self-development skills to keep up to date with fast-changing trends
+Programming languages such as HTML5, JavaScript and PHP

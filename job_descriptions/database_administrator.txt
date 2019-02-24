@@ -1,0 +1,52 @@
+Database administrators are responsible for accurately and securely using, maintaining and developing computerised databases within a wide range of public and private sector organisations.
+
+Database administrators (DBAs) design, write and take care of computer database systems so that the right person can get the information they need at the right time. Responsibilities of the job vary according to employment sector, but typically include:
+
+working with database software to find ways to store, organise and manage data
+troubleshooting
+keeping databases up to date
+helping with database design and development
+managing database access
+designing maintenance procedures and putting them into operation
+ensuring that databases meet user requirements
+liaising with programmers, applications/operational staff, IT project managers and other technical staff
+managing database security/integrity and backup procedures
+implementing security measures
+defining objectives through consultation with staff at all levels
+writing reports, documentation and operating manuals
+testing and modifying databases to ensure that they operate reliably
+providing user training, support and feedback
+writing disaster recovery plans
+archiving data.
+This role can involve working to tight deadlines and when necessary, long hours. IT professionals working in this area may also be need to be available for call-outs on evenings and weekends.
+
+Typical employers of database administrators
+Financial organisations
+IT companies
+Management consultancy firms
+Software companies
+Universities and academic institutions
+Hospitals
+Local authorities
+Central government
+Charities
+Any organisation that stores large amounts of information and data
+Data management and storage is a key focus for many business organisations. Vacancies are advertised online – by employers and on IT jobs boards such as IT Jobs Watch – as well as by recruitment agencies, careers services and by TARGETjobs.
+
+View our graduate IT and technology vacancies.
+Qualifications and training required
+There are routes into this profession for both school leavers and graduates.
+
+It is often possible to enter the profession with a degree or higher national diploma (HND) in any subject. However, a qualification in a relevant subject such as computer science, software engineering, electronic engineering, mathematics or software engineering can be advantageous. For graduates without relevant qualifications or experience, a postgraduate qualification in computing, IT or operational research is beneficial.
+
+Previous work experience is often necessary, and can be gained through IT or technology-related industrial placements, summer internships and insight days.
+
+Key skills for database administrators
+Patience
+Meticulous attention to detail
+A logical approach to work
+The ability to prioritise tasks
+Problem-solving skills
+Good organisational skills
+Communication and interpersonal skills
+Familiarity with computer operating systems and database technology (design, software and structure)
