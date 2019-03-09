@@ -8,7 +8,6 @@ Created on Wed Jun  6 21:30:35 2018
 #%%
 import feedparser
 from bs4 import BeautifulSoup as bs
-from scipy.cluster import hierarchy
 import matplotlib.pyplot as plt
 import numpy
 import math
