@@ -1,0 +1,42 @@
+UX (user experience) designers measure and optimise applications (usually web based) to improve ease of use (usability), and create the best user experience by exploring many different approaches to solve end-users’ problems. One way that a UX designer might do this is by conducting in-person user tests to observe behaviour. They then refine and tweak apps, software and websites to create products that people like and find easy to use.
+
+A similar role is that of a UI (user interface) designer. However, UI designers focus more on designing the presentation and interactivity of a product. Some roles combine both UX and UI.
+
+For a UX designer, typical duties include:
+
+considering existing applications and evaluating their UX (user experience) effectiveness
+considering the human-computer interaction (HCI) element of a design
+using online tools, such as screen readers, to aid their research
+running user testing of applications, software and websites
+defining interaction models, user task flows, and UI (user interface) specifications
+communicating scenarios (hypothetical users), end-to-end experiences, interaction models, and screen designs to other people working on a product
+working with creative directors and visual designers to incorporate a visual or brand identity into the finished product
+developing and maintaining design wireframes (basic mock-ups of applications) and specifications
+Typical employers of UX designers
+Financial services organisations
+Manufacturing companies
+Educational institutions
+Banks
+Specialist software development companies
+Consulting firms
+Telecommunications companies
+Public sector organisations
+Self-employment is also an option for UX designers
+UX design jobs are advertised online, by careers services and by recruitment agencies.
+
+View our graduate IT and technology vacancies.
+Qualifications and training required
+There are routes into UX design for both graduates and school leavers. Many UX jobs advertised ask for a bachelors degree in a design or computing-related subject, such as HCI (human computer interaction). To enter the profession without a degree, you could start out in another digital design role and specialise in UX when you have built up a portfolio of experience. Alternatively you could start by seeking out one of the few UX apprenticeships available.
+
+To find out more about getting into IT and technology via a school leaver route, visit the IT and technology section of TARGETcareers, our website aimed at school leavers.
+
+Key skills for UX designers
+Artistic eye for design
+Ability to think creatively
+Mathematical aptitude and strong problem-solving skills
+Excellent IT and programming skills
+Excellent organisational, time and project management skills
+Accuracy and attention to detail
+An understanding of the latest trends and their role in a commercial environment
+Self-development skills to keep up to date with fast-changing trends
+Professional approach to time, costs and deadlines

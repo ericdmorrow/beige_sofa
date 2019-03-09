@@ -1,0 +1,11 @@
+    def load_news_feeds(self):
+        print('Loading RSS feed sites')
+        #list the files in the folder
+        files = os.listdir(self.article_feed_dir)
+
+        #create a dictionary where key is filename; content is value
+        rss_list = []
+        for file in files:
+            with open(self.article_feed_dir + '/' + file, 'r') as f:
+                rss_list.append(f.readlines())
+        self.rss_list = [item.strip('\n').strip('\r') for sublist in rss_list for item in sublist]

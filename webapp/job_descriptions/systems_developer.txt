@@ -1,0 +1,34 @@
+A systems developer is a type of software developer. They develop and implement applications and programs for the backend processing systems used in businesses and organisations. Backend processing systems are the behind-the-scenes parts of software that don’t have a user interface, except for administration purposes. They are used a lot in online banking and HR systems, for example.
+
+Typical responsibilities of a systems developer include:
+
+discussing the client’s requirements and the proposed solution with a senior developer (for developers at mid-skill level and below)
+using development tools to write and test code to develop these solutions
+writing documentation and operating manuals
+testing and modifying systems to ensure that they operate reliably
+user training and support
+responding to feedback
+fault finding, diagnosing and fixing bugs
+Typical employers of systems developers
+Specialist software development companies
+Financial services firms
+Banks
+Technology consultancies
+Telecommunications companies
+Public sector organisations
+Law firms
+Jobs are advertised online, by careers services and by recruitment agencies.
+
+Qualifications and training required
+To get into systems development you usually need a degree related to computer science or software development; however, a few graduate employers now take on graduates from different subject backgrounds if they show the right aptitude.
+
+Apprenticeships in software development (which could open the door to a systems developer career once you have gained experience) are on the increase. 
+
+Key skills for systems developers
+Mathematical aptitude and strong problem-solving skills
+Programming languages such as C# and Java
+Excellent organisational and time management skills
+Accuracy and attention to detail
+An understanding of the latest trends and their effect on a commercial environment
+Teamwork skills, because most projects require input from individuals in different roles
+Self-development skills to keep up to date with fast-changing trends

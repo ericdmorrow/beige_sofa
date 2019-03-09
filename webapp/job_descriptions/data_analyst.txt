@@ -1,0 +1,39 @@
+Data analysts collect, organise and interpret statistical information to make it useful for a range of businesses and organisations.
+
+A data analyst is someone who scrutinises information using data analysis tools. The meaningful results they pull from the raw data help their employers or clients make important decisions by identifying various facts and trends. Typical duties include:
+
+using advanced computerised models to extract the data needed
+removing corrupted data
+performing initial analysis to assess the quality of the data
+performing further analysis to determine the meaning of the data
+performing final analysis to provide additional data screening
+preparing reports based on analysis and presenting to management
+Typical employers of data analysts
+Banks
+Specialist software development companies
+Consultancies
+Telecommunications companies
+Public sector organisations
+Social media specialists
+Colleges and universities
+Pharmaceutical companies
+Manufacturers
+Qualifications and training required
+Both university graduates and school leavers can enter the data analysis profession.
+
+For graduates, the usual entry point is a degree in statistics, mathematics or a related subject involving maths, such as economics or data science. Other degrees are also acceptable if they include informal training in statistics as part of the course, for instance sociology or informatics.
+
+It is possible to enter this career without a degree. Data analyst apprenticeships are available with a range of employers. You will often need A levels (or equivalent) to apply.
+
+Read our IT graduate salaries article to find out how much you could earn in IT.
+Key skills for a data analyst
+A high level of mathematical ability
+Programming languages, such as SQL, Oracle and Python
+The ability to analyse, model and interpret data
+Problem-solving skills
+A methodical and logical approach
+The ability to plan work and meet deadlines
+Accuracy and attention to detail
+Interpersonal skills
+Teamworking skills
+Written and verbal communication skills

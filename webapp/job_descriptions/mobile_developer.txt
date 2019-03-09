@@ -1,0 +1,41 @@
+Mobile developers specialise in mobile technology and demand for their skills set has never been stronger.
+
+Mobile developers are a type of software developer. They specialise in mobile technology such as building apps for Google’s Android, Apple’s iOS and Microsoft’s Windows Phone platforms. For this reason job titles for this type of role also include Android developer and iOS developer. Mobile developers learn the programming languages and software development environment for their chosen platform. Currently, there are a handful of major mobile platforms, each with its own core language(s) and development environment (eg Java for Android, Objective-C for iOS and C# for Windows Phone), but this is in a state of constant change to keep up with the pace of new technology.
+
+Demand for mobile developers across platforms has never been stronger as the industry tries to keep up with surging demand. In 2016, mobile and tablet devices accounted for a higher percentage of internet usage than desktop.*
+
+The typical responsibilities of mobile developers include:
+
+discussing the client’s requirements and the proposed solution with colleagues
+developing application programming interfaces (APIs) to support mobile functionality
+keeping up to date with the terminology, concepts and best practices for coding mobile apps
+using and adapting existing web applications for apps
+working closely with colleagues to constantly innovate app functionality and design
+
+Typical employers of mobile developers
+Android and iOS app development companies
+Android and iOS platform development companies
+Software companies
+Retailers
+The healthcare sector
+Travel and tourism industry
+Entertainment industry
+Financial services
+Media organisations
+Jobs are advertised online, by careers services and by recruitment agencies.
+
+View our graduate IT and technology vacancies.
+Qualifications and training required
+There are routes into mobile development for both graduates and school leavers. The job is typically open to graduates in computer science or software related degrees.
+
+There are also apprenticeships available in mobile app development, many of which involve on-the-job training for qualifications. 
+
+Key skills for mobile developers
+Programming languages such as C#, Java, Objective-C
+Strong organisational skills
+Mathematical aptitude
+Drive to keep up to date with developments and trends in the tech and modern media world
+The ability to learn quickly
+The ability to interpret and follow technical plans
+Problem-solving skills
+Strong communication skills
