@@ -1,5 +1,0 @@
-http://rssfeeds.usatoday.com/usatoday-newstopstories&x=1
-https://www.yahoo.com/news/rss/
-http://feeds.reuters.com/Reuters/domesticNews
-http://feeds.skynews.com/feeds/rss/us.xml
-http://rss.cnn.com/rss/edition_us.rss
