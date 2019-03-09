@@ -8,7 +8,6 @@ Created on Wed Jun  6 21:30:35 2018
 #%%
 import feedparser
 from bs4 import BeautifulSoup as bs
-import matplotlib.pyplot as plt
 import numpy
 import math
 from operator import itemgetter
